@@ -1,20 +1,19 @@
 #include<iostream>
-#include<iomanip>
+
 using namespace std;
 int main(){
-    int n,m=1;
+    int n;
+    char ch = 'A';
     cout<<"enter the value of rows: ";
     cin>>n;
-    for (int i = 1 ; i <= n; i++)
+    for (int i = 1; i <=n; i++)
     {
         for (int j = 1; j <= n; j++)
-        {  
-            cout<<setw(5)<<m<<" ";
-            m = m + 1;
-            
+        {
+           cout<<ch<<" ";
+           ch = ch + 1;
         }
         cout<<"\n";
-        
     }
     
     return 0;
