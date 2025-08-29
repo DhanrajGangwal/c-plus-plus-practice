@@ -1,8 +1,8 @@
 #include<iostream>
-
+9
 using namespace std;
 int main(){
-    int a,b,c;
+    int a,b;
     cout<<"enter the value of rows: ";
     cin>>a;
     // cout<<"enter the value of b: ";
