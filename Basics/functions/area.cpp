@@ -16,7 +16,7 @@ float areaOfRectangle(float length, float width){
 
 int main(){
     areaOfCircle(5);
-    areaOfTriangle(10,5);
-    areaOfRectangle(5,5);
+    areaOfTriangle(10,10);
+    areaOfRectangle(5,5); 
     return 0;
 }
